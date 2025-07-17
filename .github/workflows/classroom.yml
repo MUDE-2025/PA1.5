@@ -1,0 +1,54 @@
+name: Autograding Tests
+on:
+  push:
+    branches:
+      - assignment
+      - solution
+  repository_dispatch:
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Check for file_to_upload.md
+      id: check-file
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Check for file_to_upload.md
+        setup-command: 
+        command: if [ -f "file_to_upload.md" ]; then echo "file_to_upload.md exists"; else echo "file_to_upload.md not found"; exit 1; fi
+        timeout: 10
+        max-score: 10
+    - name: Check VS share
+      id: check-vs-share
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Check VS share
+        setup-command: pip install numpy scipy pandas matplotlib jupyter ipykernel pip
+        command: jupyter nbconvert --execute 2_VS_share.ipynb --to html
+        timeout: 10
+        max-score: 10
+    - name: Set Jupyter platformdirs environment variable #to remove warning DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs given by the platformdirs library
+      run: echo "JUPYTER_PLATFORM_DIRS=1" >> $GITHUB_ENV
+    - name: Test intellisense
+      id: test-intellisense
+      uses: classroom-resources/autograding-python-grader@v1
+      with:
+        timeout: 10
+        max-score: 10
+        setup-command: pip install numpy scipy pandas matplotlib jupyter ipykernel
+          pytest testbook
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        CHECK-FILE_RESULTS: "${{steps.check-file.outputs.result}}"
+        CHECK-VS-SHARE_RESULTS: "${{steps.check-vs-share.outputs.result}}"
+        TEST-INTELLISENSE_RESULTS: "${{steps.test-intellisense.outputs.result}}"
+      with:
+        runners: check-file, check-vs-share, test-intellisense
