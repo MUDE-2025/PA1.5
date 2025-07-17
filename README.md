@@ -1,4 +1,4 @@
-# Programming assignment 1.4 Version control with Git
+# Programming assignment 1.5 Plotting in the clouds
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
