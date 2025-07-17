@@ -1,4 +1,4 @@
-# Programming assignment 1.5 Version control with git and plotting in the clouds
+# Programming assignment 1.5 Version control with git, `scipy.stats` and 3D plots
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
@@ -15,7 +15,7 @@ Before you can start this assignment, read the theory pages in the book:
 In this assignment you'll make exercises on:
 1. [Branching and pull requests](./1_crossword.md)
 2. [Forking and pull requests](./2_ice_classic.md)
-3. [Scipy.stats and 3D plots](./4_scipy_statcs_3d_plots.ipynb)
+3. [`scipy.stats` and 3D plots](./4_scipy_statcs_3d_plots.ipynb)
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
