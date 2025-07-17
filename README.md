@@ -1,4 +1,4 @@
-# Programming assignment 1.5 Plotting in the clouds
+# Programming assignment 1.5 Scipy.stats and 3D plots
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
