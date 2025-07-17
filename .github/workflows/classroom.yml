@@ -41,7 +41,7 @@ jobs:
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
-        CHECK-MERGE_results: "${{steps.check-merge.outputs.result}}"
+        CHECK-MERGE_RESULTS: "${{steps.check-merge.outputs.result}}"
         TEST-SCIPY-STATS_RESULTS: "${{steps.test-scipy-stats.outputs.result}}"
       with:
         runners: check-merge, test-scipy-stats
