@@ -1,7 +1,7 @@
 from testbook import testbook
 
 def test_values():
-    with testbook('4_scipy_statcs_3d_plots.ipynb', execute=True) as tb:
+    with testbook('3_scipy_statcs_3d_plots.ipynb', execute=True) as tb:
         # Use value() method to inject code that converts numpy types to Python types
         sigma_value = tb.value('float(sigma[0,0])')
         assert sabs(sigma_value - 4.0) <= 0.000001, f"sigma[0,0]={sigma_value} of task 1.1 is not equal to 4"
