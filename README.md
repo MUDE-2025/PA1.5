@@ -16,7 +16,7 @@ In this assignment you'll make exercises on:
 1.
 2.
 3.
-4. [Scipy.stats and 3D plots](./4_scipy_statcs_3d_plots.ipynb)
+4. [`Scipy.stats` and 3D plots](./4_scipy_statcs_3d_plots.ipynb)
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
