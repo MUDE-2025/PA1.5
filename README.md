@@ -13,9 +13,10 @@ Before you can start this assignment, read the theory pages in the book:
 - [Merge conflicts](https://mude.citg.tudelft.nl/book/2025/_git/github.com_TeachBooks_learn-programming/mude-2025/book/workflows/git/merge_conflicts.html)
 
 In this assignment you'll make exercises on:
+
 1. [Branching and pull requests](./1_crossword.md)
 2. [Forking and pull requests](./2_ice_classic.md)
-3. [`scipy.stats` and 3D plots](./4_scipy_statcs_3d_plots.ipynb)
+3. [`scipy.stats` and 3D plots](./3_scipy_statcs_3d_plots.ipynb)
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
