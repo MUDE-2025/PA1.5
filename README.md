@@ -1,4 +1,4 @@
-# Programming assignment 1.5 Scipy.stats and 3D plots
+# Programming assignment 1.5 Version control with git, `scipy.stats` and 3D plots
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
@@ -13,17 +13,19 @@ Before you can start this assignment, read the theory pages in the book:
 - [Merge conflicts](https://mude.citg.tudelft.nl/book/2025/_git/github.com_TeachBooks_learn-programming/mude-2025/book/workflows/git/merge_conflicts.html)
 
 In this assignment you'll make exercises on:
-1.
-2.
-3.
-4. [`Scipy.stats` and 3D plots](./4_scipy_statcs_3d_plots.ipynb)
+
+1. [Branching and pull requests](./1_crossword.md)
+2. [Forking and pull requests](./2_ice_classic.md)
+3. [`scipy.stats` and 3D plots](./3_scipy_statcs_3d_plots.ipynb)
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
 You pass this PA if you:
-- Your covariance matrix of task ... is correct
-- Your meshgrid of task ... is correct
-- The evaluation of your PDF of task ... is correct
+- Performed a merge in exercise 1.
+- Your covariance matrix of task 3.1 is correct
+- Your meshgrid of task 3.2 is correct
+- The evaluation of your PDF of task 3.2 is correct
+- You've opened a pull request to https://github.com/MUDE-2025/iceclassic (please note that this is not automatically checked in your GitHub workflow). It should be visible on the [Pull Requests tab of the repo](https://github.com/MUDE-2025/iceclassic/pulls). 
 
 For the fundamental programming concepts there are two exercises:
 
