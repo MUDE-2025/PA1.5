@@ -1,9 +1,5 @@
 # Forking and pull requests
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg & Robert Lanzafame*
-
 Let's practice forking and pull requests with an iceclassic prediction!
 
 ## Task 1.1 Open public repo
@@ -37,4 +33,4 @@ While waiting for the MUDE Team to approve your pull request, do you expect merg
 
 ![Fork repository](https://files.mude.citg.tudelft.nl/merge_conflicts_ice.png)
 
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+> By Tom van Woudenberg and Robert Lanzafame, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).

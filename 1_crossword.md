@@ -1,9 +1,5 @@
 # Branching and pull requests
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg*
-
 Let's practice branching and pull requests with a crossword puzzle
 
 ## Task 1.1 Open this assignment in GitHub
@@ -100,4 +96,4 @@ Click Merge pull request to merge your changes into the main branch.
 
 Eventually repeat this process for multiple words on separate branches. Do you notice when merge conflicts appear?
 
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+> By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
