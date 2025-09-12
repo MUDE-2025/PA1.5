@@ -25,7 +25,9 @@ You pass this PA if you:
 
 For the fundamental programming concepts there are two exercises:
 
-...
+4. [Functions and methods](./4_methods.ipynb)
+5. [matplotlib](./5_matplotlib.ipynb)
+
 
 These exercises on fundamental programming concepts are not obligatory. If you struggle with one of the topics from the programming fundamentals, you're strongly advised to go through the linked reference materials by yourself. During the programming tutorial on Tuesday these steps will be demonstrated too.
 
