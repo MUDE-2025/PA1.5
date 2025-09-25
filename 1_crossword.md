@@ -86,7 +86,7 @@ Click the green `Commit changes`, but instead of the default branch, create a ne
 
 Now you're automatically send to the screen 'open a pull request'. Here you can give some description (for other to see what you've done) and the changes are shown. Click the green 'Create pull request' 
 
-Note that this pull request only contains one commit now, but we can add more commits to this branch which are all added to this pull request too. Furthermore, when doing this locally, there's no option for a pull request (because there's noone else on your local computer to give you feedback). In that case, you can still merge one branch into another directly and push those changes to the remote.
+Note that this pull request only contains one commit now, but we can add more commits to this branch which are all added to this pull request too. Furthermore, when doing this locally, there's no option for a pull request (because there's no one else on your local computer to give you feedback). In that case, you can still merge one branch into another directly and push those changes to the remote.
 
 ## Task 1.5 Merge your changes into main
 
