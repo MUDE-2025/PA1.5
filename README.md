@@ -1,6 +1,6 @@
 # Programming assignment 1.5 Git Happens
 
-You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.5/README.html. You can obtain your personal repository for submission on: TBD
+You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.5/README.html. You can obtain your personal repository for submission on: https://classroom.github.com/a/WnXRM5Fn
 
 Before you can start this assignment, read the theory pages in the book:
 - [Branching and merging](https://mude.citg.tudelft.nl/book/2025/_git/github.com_TeachBooks_learn-programming/mude-2025/book/workflows/git/branch_merge.html)
