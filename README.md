@@ -1,4 +1,4 @@
-# Programming assignment 1.5 Version control with git, `scipy.stats` and 3D plots
+# Programming assignment 1.5 Git Happens
 
 You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.5/README.html. You can obtain your personal repository for submission on: TBD
 
