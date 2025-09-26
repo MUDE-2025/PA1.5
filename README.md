@@ -1,7 +1,5 @@
 # Programming assignment 1.5 Version control with git, `scipy.stats` and 3D plots
 
-*Due: `<day of week>`, `<month>` `<day>`, `<year>`.*
-
 You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.5/README.html. You can obtain your personal repository for submission on: TBD
 
 Before you can start this assignment, read the theory pages in the book:
@@ -22,13 +20,5 @@ You pass this PA if you:
 - Your meshgrid of task 3.2 is correct
 - The evaluation of your PDF of task 3.2 is correct
 - You've opened a pull request to https://github.com/MUDE-2025/iceclassic (please note that this is not automatically checked in your GitHub workflow). It should be visible on the [Pull Requests tab of the repo](https://github.com/MUDE-2025/iceclassic/pulls). 
-
-For the fundamental programming concepts there are two exercises:
-
-4. [Functions and methods](./4_methods.ipynb)
-5. [matplotlib](./5_matplotlib.ipynb)
-
-
-These exercises on fundamental programming concepts are not obligatory. If you struggle with one of the topics from the programming fundamentals, you're strongly advised to go through the linked reference materials by yourself. During the programming tutorial on Tuesday these steps will be demonstrated too.
 
 > By Tom van Woudenberg, Robert Lanzafame and Patricia Mares Nasarre, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).

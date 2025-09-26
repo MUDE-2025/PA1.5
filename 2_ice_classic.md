@@ -35,4 +35,8 @@ While waiting for the MUDE Team to approve your pull request, do you expect merg
 
 ![Fork repository](https://files.mude.citg.tudelft.nl/merge_conflicts_ice.png)
 
+## Task 1.6 Request changes
+
+If you didn't do this correctly, the MUDE Team will request changes. Fix these and push them to your fork. The pull request will automatically update.
+
 > By Tom van Woudenberg and Robert Lanzafame, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
