@@ -13,7 +13,7 @@ You cannot just edit this repository as you don't have editing rights. However, 
 ![Fork repository](https://files.mude.citg.tudelft.nl/fork1.png)
 
 ## Task 1.3 Add prediction to fork
-To add your prediction, add your GitHub username in the list in `data/predictions.txt` and enter a prediction in the format (YYYY-MM-DD HH:MM:SS) (year, month, day, hour, minute, seconds).
+To add your prediction, add your student ID in the list in `data/predictions.txt` and enter a prediction in the format (YYYY-MM-DD HH:MM:SS) (year, month, day, hour, minute, seconds).
 
 The repo is set up to automatically update the figure every time a commit is made. However, for your fork this is disabled for security reasons. If you want to see your prediction being added to the figure in your own repo, enable workflow under `Actions`.
 
@@ -26,6 +26,8 @@ Open a pull request to the original repository by clicking `Contribute` or manua
 Create the pull request, and verify that you compare it to the original MUDE-2025/iceclassic repository
 
 ![Compare branches](https://files.mude.citg.tudelft.nl/fork_merge.png)
+
+A workflow now starts to check whether your prediction is valid. If everything is correct, it will give a green checkmark and the MUDE Team will merge your pull request into the original repository.
 
 ## Task 1.5 Expect merge conflicts?
 
