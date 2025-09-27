@@ -3,8 +3,8 @@ import numpy as np
 
 def test_values():
     with testbook('3_scipy_statcs_3d_plots.ipynb', execute=True) as tb:
-        # Use value() method to inject code that converts numpy types to Python types
-        sigma_value = tb.value('float(sigma[0,0])')
+        # Use np.array() to handle both numpy arrays and nested lists uniformly
+        sigma_value = tb.value('float(np.array(sigma)[0,0])')
         assert np.isclose(sigma_value, 4.0, atol=1e-6), f"sigma[0,0]={sigma_value} of task 1.1 is not equal to 4"
 
         mesgrid_value = tb.value('float(X1[100,100])')
