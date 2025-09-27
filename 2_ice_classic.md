@@ -15,6 +15,8 @@ You cannot just edit this repository as you don't have editing rights. However, 
 ## Task 1.3 Add prediction to fork
 To add your prediction, add your student ID in the list in `data/predictions.txt` and enter a prediction in the format (YYYY-MM-DD HH:MM:SS) (year, month, day, hour, minute, seconds).
 
+Keep the last line in `data/predictions.txt` empty. Git treats line endings carefully; if you accidentally add or remove the final empty newline, it may appear as if the previous line was deleted and re-added in your commit diff.
+
 The repo is set up to automatically update the figure every time a commit is made. However, for your fork this is disabled for security reasons. If you want to see your prediction being added to the figure in your own repo, enable workflow under `Actions`.
 
 ## Task 1.4 Open Pull request to original repository
