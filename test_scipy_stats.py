@@ -8,4 +8,4 @@ def test_values():
         assert np.isclose(sigma_value, 4.0, atol=1e-6), f"sigma[0,0]={sigma_value} of task 1.1 is not equal to 4"
 
         Z_value = tb.value('float(np.max(Z))')
-        assert np.isclose(Z_value, 0.00030627, atol=1e-5), f"max(Z)={Z_value} of task 1.3 is not equal to 0.00031"
+        assert np.isclose(Z_value, 0.0003063, atol=1e-5), f"max(Z)={Z_value} of task 1.3 is not equal to 0.00031"
