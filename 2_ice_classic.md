@@ -10,7 +10,7 @@ Open the public repository https://github.com/MUDE-2025/iceclassic. The repo alr
 
 You cannot just edit this repository as you don't have editing rights. However, forking is a powerful GitHub feature which allows you to make your changes and propose them back to the original repository. Click `Fork` on the `Code` page of the public repository to create a fork in your own account.
 
-![Fork repository](https://files.mude.citg.tudelft.nl/fork1.png)
+![Fork repository](https://github.com/TUDelft-MUDE/source-files/raw/main/file/fork1.png)
 
 ## Task 1.3 Add prediction to fork
 To add your prediction, add your student ID in the list in `data/predictions.txt` and enter a prediction in the format (YYYY-MM-DD HH:MM:SS) (year, month, day, hour, minute, seconds).
@@ -23,11 +23,11 @@ The repo is set up to automatically update the figure every time a commit is mad
 
 Open a pull request to the original repository by clicking `Contribute` or manually starting a Pull request from `Pull request` in the taskbar.
 
-![Contribute button](https://files.mude.citg.tudelft.nl/contribute.png)
+![Contribute button](https://github.com/TUDelft-MUDE/source-files/raw/main/file/contribute.png)
 
 Create the pull request, and verify that you compare it to the original MUDE-2025/iceclassic repository
 
-![Compare branches](https://files.mude.citg.tudelft.nl/fork_merge.png)
+![Compare branches](https://github.com/TUDelft-MUDE/source-files/raw/main/file/fork_merge.png)
 
 A workflow now starts to check whether your prediction is valid. If everything is correct, it will give a green checkmark and the MUDE Team will merge your pull request into the original repository.
 
@@ -35,7 +35,7 @@ A workflow now starts to check whether your prediction is valid. If everything i
 
 While waiting for the MUDE Team to approve your pull request, do you expect merge conflicts? Maybe they emerge while other pull requests are being merged. Try and fix the conflicts so that the MUDE Team doesn't have to do it ;)
 
-![Fork repository](https://files.mude.citg.tudelft.nl/merge_conflicts_ice.png)
+![Fork repository](https://github.com/TUDelft-MUDE/source-files/raw/main/file/merge_conflicts_ice.png)
 
 ## Task 1.6 Request changes
 
